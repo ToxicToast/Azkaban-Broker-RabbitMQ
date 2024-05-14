@@ -1,5 +1,5 @@
-import { MicroserviceOptions, Transport } from "@nestjs/microservices";
-import { OptionProps } from "./provider.type";
+import { MicroserviceOptions, Transport } from '@nestjs/microservices';
+import { OptionProps } from './provider.type';
 
 export const consumerProvider = (
   options: OptionProps,
@@ -14,5 +14,6 @@ export const consumerProvider = (
       `amqp://${options.brokerUsername}:${options.brokerPassword}@${options.brokerHost}:${options.brokerPort}`,
     ],
     noAck: options.noAck ?? false,
+    consumerTag: options.consumerTag,
   },
 });

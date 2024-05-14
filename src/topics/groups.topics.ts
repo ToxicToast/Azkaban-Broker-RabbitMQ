@@ -1,10 +1,10 @@
 export enum GroupsTopics {
-  LIST = "azkaban.groups.list",
-  ID = "azkaban.groups.id",
-  CREATE = "azkaban.groups.create",
-  UPDATE = "azkaban.groups.update",
-  DELETE = "azkaban.groups.delete",
-  RESTORE = "azkaban.groups.restore",
+  LIST = 'azkaban_groups_list',
+  ID = 'azkaban_groups_id',
+  CREATE = 'azkaban_groups_create',
+  UPDATE = 'azkaban_groups_update',
+  DELETE = 'azkaban_groups_delete',
+  RESTORE = 'azkaban_groups_restore',
   //
-  VERSION = "azkaban.groups.version",
+  VERSION = 'azkaban_groups_version',
 }

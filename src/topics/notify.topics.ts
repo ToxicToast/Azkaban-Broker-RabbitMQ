@@ -1,7 +1,8 @@
 export enum NotifyTopics {
-  NOTIFY = "azkaban.notify",
-  APIALERTS = "azkaban.notify.apialerts",
-  SSE = "azkaban.notify.sse",
+  NOTIFY = 'azkaban_notify',
+  APIALERTS = 'azkaban_notify_apialerts',
+  SSE = 'azkaban_notify_sse',
+  DATABASE = 'azkaban_notify_database',
   //
-  VERSION = "azkaban.notify.version",
+  VERSION = 'azkaban_notify_version',
 }

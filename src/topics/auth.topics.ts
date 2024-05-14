@@ -1,8 +1,8 @@
 export enum AuthTopics {
-  REGISTER = "azkaban.auth.register",
-  LOGIN = "azkaban.auth.login",
-  FORGOT_PASSWORD = "azkaban.auth.forgotpassword",
-  UPDATE_SETTINGS = "azkaban.auth.settings",
+  REGISTER = 'azkaban_auth_register',
+  LOGIN = 'azkaban_auth_login',
+  FORGOT_PASSWORD = 'azkaban_auth_forgotpassword',
+  UPDATE_SETTINGS = 'azkaban_auth_settings',
   //
-  VERSION = "azkaban.auth.version",
+  VERSION = 'azkaban_auth_version',
 }

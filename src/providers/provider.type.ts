@@ -5,4 +5,5 @@ export interface OptionProps {
   brokerPassword: string;
   brokerHost: string;
   brokerPort: number;
+  consumerTag?: string;
 }

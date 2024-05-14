@@ -1,6 +1,6 @@
 {
   "name": "@toxictoast/azkaban-broker-rabbitmq",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "RabbitMQ Implementation for my Azkaban Services",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "run": "ts-node src/index.ts",
-    "build": "tsup"
+    "build": "tsup",
+    "release": "npm publish --access public"
   },
   "repository": {
     "type": "git",
