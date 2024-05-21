@@ -15,5 +15,6 @@ export const consumerProvider = (
     ],
     noAck: options.noAck ?? false,
     consumerTag: options.consumerTag,
+    prefetchCount: options.prefetchCount,
   },
 });

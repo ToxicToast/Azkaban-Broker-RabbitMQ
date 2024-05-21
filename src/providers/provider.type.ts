@@ -6,4 +6,5 @@ export interface OptionProps {
   brokerHost: string;
   brokerPort: number;
   consumerTag?: string;
+  prefetchCount?: number;
 }
