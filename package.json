@@ -1,6 +1,6 @@
 {
   "name": "@toxictoast/azkaban-broker-rabbitmq",
-  "version": "0.0.10",
+  "version": "0.0.15",
   "description": "RabbitMQ Implementation for my Azkaban Services",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
