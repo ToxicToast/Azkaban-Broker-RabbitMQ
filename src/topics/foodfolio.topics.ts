@@ -9,6 +9,16 @@ export enum FoodfolioCategoryTopics {
   VERSION = 'foodfolio_category_version',
 }
 
+export enum FoodfolioCompanyTopics {
+  LIST = 'foodfolio_company_list',
+  ID = 'foodfolio_company_id',
+  CREATE = 'foodfolio_company_create',
+  UPDATE = 'foodfolio_company_update',
+  DELETE = 'foodfolio_company_delete',
+  RESTORE = 'foodfolio_company_restore',
+  VERSION = 'foodfolio_company_version',
+}
+
 export enum FoodfolioBrandTopics {
   LIST = 'foodfolio_brand_list',
   ID = 'foodfolio_brand_id',
@@ -21,6 +31,12 @@ export enum FoodfolioBrandTopics {
 
 export enum FoodfolioProductTopics {
   LIST = 'foodfolio_product_list',
+  CATEGORYID = 'foodfolio_product_category_id',
+  LOCATIONID = 'foodfolio_product_location_id',
+  COMPANYID = 'foodfolio_product_company_id',
+  SIZEID = 'foodfolio_product_size_id',
+  TYPEID = 'foodfolio_product_type_id',
+  WAREHOUSEID = 'foodfolio_product_warehouse_id',
   ID = 'foodfolio_product_id',
   CREATE = 'foodfolio_product_create',
   UPDATE = 'foodfolio_product_update',
@@ -40,8 +56,10 @@ export enum FoodfolioProductDetailTopics {
 }
 
 export enum FoodfolioLocationTopics {
+  PARENT = 'foodfolio_location_parent',
   LIST = 'foodfolio_location_list',
   ID = 'foodfolio_location_id',
+  FREEZER = 'foodfolio_location_freezer',
   CREATE = 'foodfolio_location_create',
   UPDATE = 'foodfolio_location_update',
   DELETE = 'foodfolio_location_delete',
