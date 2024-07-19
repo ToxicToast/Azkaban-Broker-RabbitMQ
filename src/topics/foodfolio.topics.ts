@@ -47,6 +47,7 @@ export enum FoodfolioProductTopics {
 
 export enum FoodfolioProductDetailTopics {
   LIST = 'foodfolio_productdetail_list',
+  ITEMID = 'foodfolio_productdetail_item_id',
   ID = 'foodfolio_productdetail_id',
   CREATE = 'foodfolio_productdetail_create',
   UPDATE = 'foodfolio_productdetail_update',
