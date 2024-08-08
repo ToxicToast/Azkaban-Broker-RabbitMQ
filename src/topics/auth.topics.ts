@@ -1,6 +1,8 @@
 export enum AuthTopics {
   REGISTER = 'azkaban_auth_register',
+  REFRESH = 'azkaban_auth_refresh',
   LOGIN = 'azkaban_auth_login',
+  LOGIN_ATTEMPT = 'azkaban_auth_login_attempt',
   FORGOT_PASSWORD = 'azkaban_auth_forgotpassword',
   //
   ACTIVATE = 'azkaban_auth_activate',
