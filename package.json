@@ -1,6 +1,6 @@
 {
   "name": "@toxictoast/azkaban-broker-rabbitmq",
-  "version": "0.0.22",
+  "version": "0.0.31",
   "description": "RabbitMQ Implementation for my Azkaban Services",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/ToxicToast/Azkaban-Broker-RabbitMQ#readme",
   "devDependencies": {
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5"
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@nestjs/common": "^10.3.8",
-    "@nestjs/microservices": "^10.3.8"
+    "@nestjs/common": "^10.4.1",
+    "@nestjs/microservices": "^10.4.1"
   }
 }

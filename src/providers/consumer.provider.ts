@@ -11,7 +11,7 @@ export const consumerProvider = (
       durable: true,
     },
     urls: [
-      `amqp://${options.brokerUsername}:${options.brokerPassword}@${options.brokerHost}:${options.brokerPort}`,
+      `amqp://${options.brokerUsername}:${options.brokerPassword}@${options.brokerHost}:${options.brokerPort}${options.brokerVHost}`,
     ],
     noAck: options.noAck ?? false,
     consumerTag: options.consumerTag,
