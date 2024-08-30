@@ -11,10 +11,15 @@ export const consumerProvider = (
       durable: true,
     },
     urls: [
-      `amqp://${options.brokerUsername}:${options.brokerPassword}@${options.brokerHost}:${options.brokerPort}${options.brokerVHost}`,
+      `amqp://${options.brokerUsername}:${options.brokerPassword}@${options.brokerHost}:${options.brokerPort}/${options?.brokerVHost}`,
     ],
     noAck: options.noAck ?? false,
     consumerTag: options.consumerTag,
     prefetchCount: options.prefetchCount,
+    headers: {
+      content_type: 'application/json',
+      content_encoding: 'utf-8',
+    },
+    persistent: true,
   },
 });
