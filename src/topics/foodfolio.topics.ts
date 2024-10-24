@@ -40,20 +40,20 @@ export enum FoodfolioProductTopics {
 }
 
 export enum FoodfolioProductVariantTopics {
-  LIST = 'foodfolio_product_list',
-  ITEMID = 'foodfolio_product_item_id',
-  CATEGORYID = 'foodfolio_product_category_id',
-  LOCATIONID = 'foodfolio_product_location_id',
-  COMPANYID = 'foodfolio_product_company_id',
-  SIZEID = 'foodfolio_product_size_id',
-  TYPEID = 'foodfolio_product_type_id',
-  WAREHOUSEID = 'foodfolio_product_warehouse_id',
-  ID = 'foodfolio_product_id',
-  CREATE = 'foodfolio_product_create',
-  UPDATE = 'foodfolio_product_update',
-  DELETE = 'foodfolio_product_delete',
-  RESTORE = 'foodfolio_product_restore',
-  VERSION = 'foodfolio_product_version',
+  LIST = 'foodfolio_productvariant_list',
+  ITEMID = 'foodfolio_productvariant_item_id',
+  CATEGORYID = 'foodfolio_productvariant_category_id',
+  LOCATIONID = 'foodfolio_productvariant_location_id',
+  COMPANYID = 'foodfolio_productvariant_company_id',
+  SIZEID = 'foodfolio_productvariant_size_id',
+  TYPEID = 'foodfolio_productvariant_type_id',
+  WAREHOUSEID = 'foodfolio_productvariant_warehouse_id',
+  ID = 'foodfolio_productvariant_id',
+  CREATE = 'foodfolio_productvariant_create',
+  UPDATE = 'foodfolio_productvariant_update',
+  DELETE = 'foodfolio_productvariant_delete',
+  RESTORE = 'foodfolio_productvariant_restore',
+  VERSION = 'foodfolio_productvariant_version',
 }
 
 export enum FoodfolioProductDetailTopics {

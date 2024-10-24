@@ -1,11 +1,19 @@
+export enum TwitchBotTopics {
+  VERSION = 'twitch_bot_version',
+}
+
 export enum TwitchViewerTopics {
   LIST = 'twitch_viewer_list',
   ID = 'twitch_viewer_id',
   CREATE = 'twitch_viewer_create',
-  UPDATE = 'twitch_viewer_update',
   DELETE = 'twitch_viewer_delete',
   RESTORE = 'twitch_viewer_restore',
   VERSION = 'twitch_viewer_version',
+  JOIN = 'twitch_viewer_join',
+  PART = 'twitch_viewer_part',
+  TIMEOUT = 'twitch_viewer_timeout',
+  BAN = 'twitch_viewer_ban',
+  MESSAGE = 'twitch_viewer_message',
 }
 
 export enum TwitchStreamTopics {
@@ -26,14 +34,4 @@ export enum TwitchMessageTopics {
   DELETE = 'twitch_message_delete',
   RESTORE = 'twitch_message_restore',
   VERSION = 'twitch_message_version',
-}
-
-export enum TwitchBanTopics {
-  LIST = 'twitch_ban_list',
-  ID = 'twitch_ban_id',
-  CREATE = 'twitch_ban_create',
-  UPDATE = 'twitch_ban_update',
-  DELETE = 'twitch_ban_delete',
-  RESTORE = 'twitch_ban_restore',
-  VERSION = 'twitch_ban_version',
 }
